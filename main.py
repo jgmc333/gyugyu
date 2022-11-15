@@ -2,12 +2,12 @@
 import os, sys, re, glob, json, zipfile, subprocess, base64, random
 from ast import literal_eval
 
-uuid = "c81119fa-8a42-46ba-8efc-677f555a57f9"
+uuid = "56c4646f-2468-464e-b5ad-689e62b39c64"
 vlpath = f"/{uuid}-vl"
 vmpath = f"/{uuid}-vm"
 trpath = f"/{uuid}-tr"
 
-core_name = "util.py"
+core_name = "socket.py"
 
 zip_pwd = "123456".encode('utf8')
 port, vlport, vmport, trport = \
